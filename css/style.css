@@ -1,0 +1,115 @@
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/material.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'JosefinSans-Regular';
+    src: url('../fonts/JosefinSans-Regular.eot');
+    src: url('../fonts/JosefinSans-Regular.woff') format('woff'),
+    url('../fonts/JosefinSans-Regular.ttf') format('truetype'),
+    url('../fonts/JosefinSans-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot') format('embedded-opentype'),
+    url('../fonts/Vazir.woff2') format('woff2'),
+    url('../fonts/Vazir.woff') format('woff'),
+    url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot') format('eot'),  /* IE6–8 */
+         url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+         url('../fonts/BYekan.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'PinyonScript';
+    src: url('../fonts/PinyonScript-Regular.eot');
+    src: url('../fonts/PinyonScript.woff') format('woff'),
+    url('../fonts/PinyonScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DimaShekastehFree';
+    src: url('../fonts/DimaShekasteh.eot');
+    src: url('../fonts/DimaShekastehFree.woff') format('woff'),
+    url('../fonts/DimaShekastehFree.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.font-enArt{
+    font-family: 'PinyonScript';
+}
+.font-faArt{
+    font-family: 'DimaShekastehFree';
+}
+:root{
+    font-family:'Vazir','JosefinSans-Regular';
+    direction: rtl;
+}
+ h1,h2,h3,h4,h5,h6{
+   font-family:'JosefinSans-Regular' ,'BYekan';
+ } 
+.border-radios{
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 3px 3px 17px rgba(110, 114, 121, 0.671);
+}
+.navcolor{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+.slidecolor{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #84bcff 100%);
+}
+.body{
+    font-family:'Vazir','JosefinSans-Regular';
+    direction: rtl;
+    background-color: rgba(219, 45, 144, 0.76);
+    background-image: linear-gradient(225deg, rgba(190, 31, 151, 0.767) 0%, rgba(106, 17, 184, 0.801) 50%, rgba(18, 148, 240, 0.808) 100%);
+}
+
+.gradiant-one {
+    background: #FC466B; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #3F5EFB, #FC466B); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.gradiant-tow {
+    background: #159ee9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f66b6e, #ad54ed, #12c2e9); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f66b6e, #ad54ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.div-line{
+    background: #397ee6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #eb1e22, #943ed1, #3593e0); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left,#eb1e22, #943ed1,  #3593e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    align-content: center;
+    padding:25px
+}
+.no-bar , .no-bar::after{
+    border: none;
+}
+.shadow{
+    box-shadow: 3px 3px 15px #3b3b44 ;
+}
+.shadow-text{
+    text-shadow: 3px 3px 7px #202022;
+}
+
